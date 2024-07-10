@@ -1,0 +1,390 @@
+@font-face {
+    font-family: 'Organical';
+    src: url('/fonts/spacetime-regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Inter';
+    src: url('/fonts/Inter-VariableFont_slnt,wght.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Unbounded';
+    src: url('/fonts/Unbounded-VariableFont_wght.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+html {
+    scroll-behavior: smooth;
+  }
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.back-to-top{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: black;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 100%;
+    cursor: pointer;
+    font-size: 20px;
+    z-index: 1000;
+
+}
+
+/* ******************************************************************************** */
+
+
+
+                               /* HEADER STYLES */
+
+
+
+/* ******************************************************************************** */
+.sticky-header-wrapper {
+    width: 100%;
+    background-color: #A5B1D6;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.sticky-header {
+    max-width: 75%;
+    margin: 0 auto;
+    padding: 10px 0;
+    color: #FFFFFF; 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* ******************************************************************************** */
+
+
+
+                               /* NAVIGATION LINKS*/
+
+
+
+/* ******************************************************************************** */
+.nav-links {
+    font-family: 'Inter', sans-serif; /* Apply the Inter font */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+    gap: 30px; /* Adjust the spacing between items */
+}
+
+.nav-links li {
+    margin: 0 15px;
+}
+
+.nav-links a {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.name-logo {
+    font-family: 'Unbounded', sans-serif; 
+    color: black;
+    font-size: 40px;
+    margin-right: auto;
+}
+
+/* ******************************************************************************** */
+
+
+
+                               /* BUTTON STYLE */
+
+
+
+/* ******************************************************************************** */
+.header-button, .portfolio-button {
+    position: relative;
+    border: 3px solid black; /* Black border */
+    background-color: white; /* White background */
+    border-radius: 0px; /* No border radius */
+    padding: 10px 25px; /* Padding for the button */
+    cursor: pointer; /* Pointer cursor on hover */
+    font-family: 'Inter', sans-serif; /* Apply the Inter font */
+    font-size: 18px; /* Font size */
+    font-weight: bold; /* Font weight */
+    text-transform: uppercase; /* Uppercase text */
+    z-index: 1; /* Ensure the button is above the shadow */
+    transition: box-shadow 0.3s ease-in-out, transform 0.3s ease-in-out;
+    
+}
+
+
+.header-button:hover, .portfolio-button:hover {
+    box-shadow: 4px 4px 0 #131313 !important; /* Box shadow */
+    transform: translate(-5px, -5px);
+}
+
+/* ******************************************************************************** */
+
+
+
+                               /* SECTION 1 */
+
+
+
+/* ******************************************************************************** */
+.full-screen-section {
+    background-color: #A5B1D6;
+    height: 100vh; 
+    display: flex;
+    flex-direction: column; /* Stack children vertically */
+    justify-content: center; /* Center vertically */
+    align-items: center; /* Center horizontally */
+    text-align: center; /* Center text */
+}
+
+.full-screen-section h1 {
+    font-family: 'Unbounded', sans-serif;
+    font-weight: 600; 
+    font-size: 120px;
+    margin: 0; /* Remove default margin */
+    margin-top: -200px;
+}
+
+.under-hello {
+    font-family: 'Unbounded', cursive;
+    font-size: 40px;
+    margin-top: 20px; /* Add spacing between h1 and p */
+    font-weight: 400;
+}
+
+/* ******************************************************************************** */
+
+
+
+                               /* SECTION 2 */
+
+
+
+/* ******************************************************************************** */
+.wrapper {
+    width: 100%;
+    background-color: #FFFFFF;
+}
+
+.full-screen-section-2 {
+    max-width: 75%;
+    margin: 0 auto; /* Center the section horizontally */
+    background-color: #FFFFFF;
+    height: 100vh; 
+    display: flex;
+    justify-content: space-between; /* Stack children vertically */
+    align-items: center;
+}
+
+.content-wrapper-2 {
+    display: flex;
+    flex-direction: row;
+    gap: 150px; /* Adjust the gap between image and button */
+    
+}
+
+.daniel-image {
+    width: 40%;
+    height: 100%;
+    border-radius: 360px; /* Make the image a circle */
+}
+
+.about-me {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.about-me p {
+    font-family: "Inter", sans-serif;
+    font-size: 20px;
+}
+
+.about-me-top {
+    font-family: "Inter", sans-serif;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+.about-me-middle {
+    font-family: "Unbounded", cursive;
+    font-size: 45px;
+    text-transform: uppercase;
+}
+
+/* ******************************************************************************** */
+
+
+
+                               /* SECTION 3 */
+
+
+
+/* ******************************************************************************** */
+.wrapper-2 {
+    width: 100%;
+    background-color: #A5B1D6;
+    padding-top: 50px; /* Add padding to the top */
+    padding-bottom: 50px;
+    
+}
+
+.full-screen-section-3 {
+    padding-left: 50px; /* Add padding to the left */
+    padding-right: 50px; /* Add padding to the right */
+    max-width: 50%;
+    margin: 0 auto; /* Center the section horizontally */
+    background-color: #A5B1D6;
+    height: 60vh; 
+    display: flex;
+    justify-content: center; /* Center content horizontally */
+    align-items: start; /* Align content to the top */
+}
+
+.content-wrapper-3 {
+    display: flex;
+    flex-direction: row; /* Align children in a row */
+    justify-content: center; /* Center content horizontally */
+    align-items: start; /* Align content to the top */
+}
+
+.experience h1 {
+    
+    font-family: 'Unbounded', sans-serif;
+    font-size: 40px;
+    margin: 0; /* Remove default margin */
+}
+
+.experience-title {
+    font-family: 'Inter', sans-serif;
+    font-size: 25px;
+    text-transform: uppercase;
+}
+.experience p {
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    margin: 10px 0; /* Add spacing between items */
+}
+
+.experience li {
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    margin: 10px 0; /* Add spacing between items */
+}
+
+
+/* Animation styles */
+@keyframes slideUp {
+    from {
+        transform: translateY(100px);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+.hidden{
+    transition: all 1s;
+    opacity: 0;
+    filter: blur(5px);
+    transform: translateY(200px);
+}
+
+.show{
+    animation: slideUp 1s ease-in-out;
+    opacity: 1;
+    filter: blur(0);
+    transform: translateY(0);
+}
+
+/* ******************************************************************************** */
+
+
+
+                               /* SECTION 4 */
+
+
+
+/* ******************************************************************************** */
+
+.wrapper-3 {
+    width: 100%;
+    background-color: #a5b1d600;
+    padding-top: 50px; /* Add padding to the top */
+    padding-bottom: 50px;
+}
+
+.full-screen-section-4 {
+    padding: 70px 0; /* Add padding to the section */
+    padding-left: 50px; /* Add padding to the left */
+    padding-right: 50px; /* Add padding to the right */
+    max-width: 50%;
+    margin: 0 auto; /* Center the section horizontally */
+    background-color: #a5b1d600;
+    height: 20vh; 
+    display: flex;
+    justify-content: center; /* Center content horizontally */
+    align-items: start; /* Align content to the top */
+    border-top:#000000;
+    border-top-style: solid;
+    border-width: 1px;
+}
+
+.content-wrapper-4 {
+    display: flex;
+    flex-direction: row; /* Align children in a row */
+    justify-content: center; /* Center content horizontally */
+    align-items: start; /* Align content to the top */
+
+
+}
+
+.contact h1 {
+    font-family: 'Unbounded', sans-serif;
+    font-size: 40px;
+    margin: 0; /* Remove default margin */
+    color: #000000;
+}
+.contact p {
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    margin: 10px 0; /* Add spacing between items */
+    color: #000000;
+}
+.social-links {
+    display: flex;
+    justify-content: space-between; /* or space-between/center depending on your layout preference */
+    align-items: center;
+    gap: 100px; /* Adjust the spacing between items */
+    padding-top: 50px;
+}
+
+
+
+.social-links img {
+    width: 50px;
+    height: 50px;
+}
