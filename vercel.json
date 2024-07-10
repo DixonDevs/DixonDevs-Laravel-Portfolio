@@ -20,7 +20,7 @@
         "APP_ENV": "production",
         "APP_DEBUG": "true",
         "APP_URL": "https://www.danieldixon.dev/",
-        "APP_KEY": "base64:APRMx/SIahE+4A402HaVyMcfDd8PHli9BxBqpx1o+tc=",
+        "APP_KEY": "base64:HWUnr3LsiZ9wkkIW600Vj0QTf5y47jm4Gt98TZK+1cE=",
         "APP_CONFIG_CACHE": "/tmp/config.php",
         "APP_EVENTS_CACHE": "/tmp/events.php",
         "APP_PACKAGES_CACHE": "/tmp/packages.php",
