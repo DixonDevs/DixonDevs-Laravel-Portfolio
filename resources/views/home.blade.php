@@ -5,9 +5,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="{{ asset('css/styles.css') }}">
+    <link rel="stylesheet" href="{{ asset('public/css/styles.css') }}">
     <title>Home Page</title>
-    @vite('resources/js/app.jsx')
+
 </head>
 <body>
 @include('partials.header')
@@ -31,7 +31,7 @@
             <p>From a young age, I was drawn to technology, dreaming of the day I would have my own computer. When that day finally arrived, I was initially fascinated by playing Minecraft, spending countless hours navigating its blocky landscapes. However, beyond the gameplay, my curiosity about the game's mechanics sparked my interest in coding and programming. This fascination evolved into a passion for software development, leading me to become a full-stack web developer captivated by the intricacies of the field.</p>
 
             <p>To get my foot in the door of web development, I started DBD Branding Co LLC, a company dedicated to producing quality websites at an affordable price. This venture allowed me to gain valuable experience and transition into real development, transforming my early interest in technology into a continuous pursuit of knowledge and growth in the ever-evolving tech landscape.</p>
-            </div>     
+            </div>
         </div>
     </div>
 </div>

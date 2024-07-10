@@ -21,14 +21,14 @@
 
 html {
     scroll-behavior: smooth;
-  }
+}
 
 body {
     margin: 0;
     padding: 0;
 }
 
-.back-to-top{
+.back-to-top {
     position: fixed;
     bottom: 20px;
     right: 20px;
@@ -46,7 +46,7 @@ body {
 
 
 
-                               /* HEADER STYLES */
+/* HEADER STYLES */
 
 
 
@@ -64,7 +64,7 @@ body {
     max-width: 75%;
     margin: 0 auto;
     padding: 10px 0;
-    color: #FFFFFF; 
+    color: #FFFFFF;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -74,13 +74,14 @@ body {
 
 
 
-                               /* NAVIGATION LINKS*/
+/* NAVIGATION LINKS*/
 
 
 
 /* ******************************************************************************** */
 .nav-links {
-    font-family: 'Inter', sans-serif; /* Apply the Inter font */
+    font-family: 'Inter', sans-serif;
+    /* Apply the Inter font */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -88,7 +89,8 @@ body {
     margin: 0;
     padding: 0;
     font-size: 18px;
-    gap: 30px; /* Adjust the spacing between items */
+    gap: 30px;
+    /* Adjust the spacing between items */
 }
 
 .nav-links li {
@@ -102,7 +104,7 @@ body {
 }
 
 .name-logo {
-    font-family: 'Unbounded', sans-serif; 
+    font-family: 'Unbounded', sans-serif;
     color: black;
     font-size: 40px;
     margin-right: auto;
@@ -112,30 +114,43 @@ body {
 
 
 
-                               /* BUTTON STYLE */
+/* BUTTON STYLE */
 
 
 
 /* ******************************************************************************** */
-.header-button, .portfolio-button {
+.header-button,
+.portfolio-button {
     position: relative;
-    border: 3px solid black; /* Black border */
-    background-color: white; /* White background */
-    border-radius: 0px; /* No border radius */
-    padding: 10px 25px; /* Padding for the button */
-    cursor: pointer; /* Pointer cursor on hover */
-    font-family: 'Inter', sans-serif; /* Apply the Inter font */
-    font-size: 18px; /* Font size */
-    font-weight: bold; /* Font weight */
-    text-transform: uppercase; /* Uppercase text */
-    z-index: 1; /* Ensure the button is above the shadow */
+    border: 3px solid black;
+    /* Black border */
+    background-color: white;
+    /* White background */
+    border-radius: 0px;
+    /* No border radius */
+    padding: 10px 25px;
+    /* Padding for the button */
+    cursor: pointer;
+    /* Pointer cursor on hover */
+    font-family: 'Inter', sans-serif;
+    /* Apply the Inter font */
+    font-size: 18px;
+    /* Font size */
+    font-weight: bold;
+    /* Font weight */
+    text-transform: uppercase;
+    /* Uppercase text */
+    z-index: 1;
+    /* Ensure the button is above the shadow */
     transition: box-shadow 0.3s ease-in-out, transform 0.3s ease-in-out;
-    
+
 }
 
 
-.header-button:hover, .portfolio-button:hover {
-    box-shadow: 4px 4px 0 #131313 !important; /* Box shadow */
+.header-button:hover,
+.portfolio-button:hover {
+    box-shadow: 4px 4px 0 #131313 !important;
+    /* Box shadow */
     transform: translate(-5px, -5px);
 }
 
@@ -143,33 +158,39 @@ body {
 
 
 
-                               /* SECTION 1 */
+/* SECTION 1 */
 
 
 
 /* ******************************************************************************** */
 .full-screen-section {
     background-color: #A5B1D6;
-    height: 100vh; 
+    height: 100vh;
     display: flex;
-    flex-direction: column; /* Stack children vertically */
-    justify-content: center; /* Center vertically */
-    align-items: center; /* Center horizontally */
-    text-align: center; /* Center text */
+    flex-direction: column;
+    /* Stack children vertically */
+    justify-content: center;
+    /* Center vertically */
+    align-items: center;
+    /* Center horizontally */
+    text-align: center;
+    /* Center text */
 }
 
 .full-screen-section h1 {
     font-family: 'Unbounded', sans-serif;
-    font-weight: 600; 
+    font-weight: 600;
     font-size: 120px;
-    margin: 0; /* Remove default margin */
+    margin: 0;
+    /* Remove default margin */
     margin-top: -200px;
 }
 
 .under-hello {
     font-family: 'Unbounded', cursive;
     font-size: 40px;
-    margin-top: 20px; /* Add spacing between h1 and p */
+    margin-top: 20px;
+    /* Add spacing between h1 and p */
     font-weight: 400;
 }
 
@@ -177,7 +198,7 @@ body {
 
 
 
-                               /* SECTION 2 */
+/* SECTION 2 */
 
 
 
@@ -189,25 +210,29 @@ body {
 
 .full-screen-section-2 {
     max-width: 75%;
-    margin: 0 auto; /* Center the section horizontally */
+    margin: 0 auto;
+    /* Center the section horizontally */
     background-color: #FFFFFF;
-    height: 100vh; 
+    height: 100vh;
     display: flex;
-    justify-content: space-between; /* Stack children vertically */
+    justify-content: space-between;
+    /* Stack children vertically */
     align-items: center;
 }
 
 .content-wrapper-2 {
     display: flex;
     flex-direction: row;
-    gap: 150px; /* Adjust the gap between image and button */
-    
+    gap: 150px;
+    /* Adjust the gap between image and button */
+
 }
 
 .daniel-image {
     width: 40%;
     height: 100%;
-    border-radius: 360px; /* Make the image a circle */
+    border-radius: 360px;
+    /* Make the image a circle */
 }
 
 .about-me {
@@ -237,7 +262,7 @@ body {
 
 
 
-                               /* SECTION 3 */
+/* SECTION 3 */
 
 
 
@@ -245,35 +270,45 @@ body {
 .wrapper-2 {
     width: 100%;
     background-color: #A5B1D6;
-    padding-top: 50px; /* Add padding to the top */
+    padding-top: 50px;
+    /* Add padding to the top */
     padding-bottom: 50px;
-    
+
 }
 
 .full-screen-section-3 {
-    padding-left: 50px; /* Add padding to the left */
-    padding-right: 50px; /* Add padding to the right */
+    padding-left: 50px;
+    /* Add padding to the left */
+    padding-right: 50px;
+    /* Add padding to the right */
     max-width: 50%;
-    margin: 0 auto; /* Center the section horizontally */
+    margin: 0 auto;
+    /* Center the section horizontally */
     background-color: #A5B1D6;
-    height: 60vh; 
+    height: 60vh;
     display: flex;
-    justify-content: center; /* Center content horizontally */
-    align-items: start; /* Align content to the top */
+    justify-content: center;
+    /* Center content horizontally */
+    align-items: start;
+    /* Align content to the top */
 }
 
 .content-wrapper-3 {
     display: flex;
-    flex-direction: row; /* Align children in a row */
-    justify-content: center; /* Center content horizontally */
-    align-items: start; /* Align content to the top */
+    flex-direction: row;
+    /* Align children in a row */
+    justify-content: center;
+    /* Center content horizontally */
+    align-items: start;
+    /* Align content to the top */
 }
 
 .experience h1 {
-    
+
     font-family: 'Unbounded', sans-serif;
     font-size: 40px;
-    margin: 0; /* Remove default margin */
+    margin: 0;
+    /* Remove default margin */
 }
 
 .experience-title {
@@ -281,16 +316,19 @@ body {
     font-size: 25px;
     text-transform: uppercase;
 }
+
 .experience p {
     font-family: 'Inter', sans-serif;
     font-size: 20px;
-    margin: 10px 0; /* Add spacing between items */
+    margin: 10px 0;
+    /* Add spacing between items */
 }
 
 .experience li {
     font-family: 'Inter', sans-serif;
     font-size: 20px;
-    margin: 10px 0; /* Add spacing between items */
+    margin: 10px 0;
+    /* Add spacing between items */
 }
 
 
@@ -300,20 +338,21 @@ body {
         transform: translateY(100px);
         opacity: 0;
     }
+
     to {
         transform: translateY(0);
         opacity: 1;
     }
 }
 
-.hidden{
+.hidden {
     transition: all 1s;
     opacity: 0;
     filter: blur(5px);
     transform: translateY(200px);
 }
 
-.show{
+.show {
     animation: slideUp 1s ease-in-out;
     opacity: 1;
     filter: blur(0);
@@ -324,7 +363,7 @@ body {
 
 
 
-                               /* SECTION 4 */
+/* SECTION 4 */
 
 
 
@@ -333,31 +372,41 @@ body {
 .wrapper-3 {
     width: 100%;
     background-color: #a5b1d600;
-    padding-top: 50px; /* Add padding to the top */
+    padding-top: 50px;
+    /* Add padding to the top */
     padding-bottom: 50px;
 }
 
 .full-screen-section-4 {
-    padding: 70px 0; /* Add padding to the section */
-    padding-left: 50px; /* Add padding to the left */
-    padding-right: 50px; /* Add padding to the right */
+    padding: 70px 0;
+    /* Add padding to the section */
+    padding-left: 50px;
+    /* Add padding to the left */
+    padding-right: 50px;
+    /* Add padding to the right */
     max-width: 50%;
-    margin: 0 auto; /* Center the section horizontally */
+    margin: 0 auto;
+    /* Center the section horizontally */
     background-color: #a5b1d600;
-    height: 20vh; 
+    height: 20vh;
     display: flex;
-    justify-content: center; /* Center content horizontally */
-    align-items: start; /* Align content to the top */
-    border-top:#000000;
+    justify-content: center;
+    /* Center content horizontally */
+    align-items: start;
+    /* Align content to the top */
+    border-top: #000000;
     border-top-style: solid;
     border-width: 1px;
 }
 
 .content-wrapper-4 {
     display: flex;
-    flex-direction: row; /* Align children in a row */
-    justify-content: center; /* Center content horizontally */
-    align-items: start; /* Align content to the top */
+    flex-direction: row;
+    /* Align children in a row */
+    justify-content: center;
+    /* Center content horizontally */
+    align-items: start;
+    /* Align content to the top */
 
 
 }
@@ -365,20 +414,26 @@ body {
 .contact h1 {
     font-family: 'Unbounded', sans-serif;
     font-size: 40px;
-    margin: 0; /* Remove default margin */
+    margin: 0;
+    /* Remove default margin */
     color: #000000;
 }
+
 .contact p {
     font-family: 'Inter', sans-serif;
     font-size: 20px;
-    margin: 10px 0; /* Add spacing between items */
+    margin: 10px 0;
+    /* Add spacing between items */
     color: #000000;
 }
+
 .social-links {
     display: flex;
-    justify-content: space-between; /* or space-between/center depending on your layout preference */
+    justify-content: space-between;
+    /* or space-between/center depending on your layout preference */
     align-items: center;
-    gap: 100px; /* Adjust the spacing between items */
+    gap: 100px;
+    /* Adjust the spacing between items */
     padding-top: 50px;
 }
 
