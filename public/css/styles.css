@@ -52,8 +52,9 @@ body {
 
 /* ******************************************************************************** */
 .sticky-header-wrapper {
+    display: flex;
     width: 100%;
-    background-color: #A5B1D6;
+    background-color: #FFFFFF;
     position: -webkit-sticky;
     position: sticky;
     top: 0;
@@ -164,17 +165,13 @@ body {
 
 /* ******************************************************************************** */
 .full-screen-section {
-    background-color: #A5B1D6;
-    height: 100vh;
+    height: 90vh;
     display: flex;
-    flex-direction: column;
-    /* Stack children vertically */
+    flex-direction: row-reverse;
     justify-content: center;
-    /* Center vertically */
     align-items: center;
-    /* Center horizontally */
     text-align: center;
-    /* Center text */
+
 }
 
 .full-screen-section h1 {
@@ -184,6 +181,7 @@ body {
     margin: 0;
     /* Remove default margin */
     margin-top: -200px;
+    color: #FFFFFF;
 }
 
 .under-hello {
@@ -192,6 +190,7 @@ body {
     margin-top: 20px;
     /* Add spacing between h1 and p */
     font-weight: 400;
+    color: #ffffff;
 }
 
 /* ******************************************************************************** */
@@ -209,28 +208,39 @@ body {
 }
 
 .full-screen-section-2 {
-    max-width: 75%;
-    margin: 0 auto;
-    /* Center the section horizontally */
-    background-color: #FFFFFF;
     height: 100vh;
     display: flex;
-    justify-content: space-between;
-    /* Stack children vertically */
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    padding-top: 50px;
+
+}
+
+.full-screen-section-2 h1 {
+    font-family: 'Unbounded', sans-serif;
+    font-size: 40px;
+    margin: 0;
+    /* Remove default margin */
+}
+
+.full-screen-section-2 p {
+    font-family: 'Inter', sans-serif;
+    font-size: 25px;
+    text-transform: uppercase;
+}
+
+.skills-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
 }
 
-.content-wrapper-2 {
-    display: flex;
-    flex-direction: row;
-    gap: 150px;
-    /* Adjust the gap between image and button */
 
-}
 
 .daniel-image {
-    width: 40%;
-    height: 100%;
+    margin-right: 15px;
     border-radius: 360px;
     /* Make the image a circle */
 }
@@ -287,10 +297,8 @@ body {
     background-color: #A5B1D6;
     height: 60vh;
     display: flex;
-    justify-content: center;
-    /* Center content horizontally */
-    align-items: start;
-    /* Align content to the top */
+    justify-content: space-between;
+
 }
 
 .content-wrapper-3 {
@@ -363,81 +371,33 @@ body {
 
 
 
-/* SECTION 4 */
+/* Socials Hero */
 
 
 
 /* ******************************************************************************** */
 
-.wrapper-3 {
-    width: 100%;
-    background-color: #a5b1d600;
-    padding-top: 50px;
-    /* Add padding to the top */
-    padding-bottom: 50px;
+.socials-content-wrapper {
+    background-color: #FFFFFF;
+    padding: 10px;
+    border-radius: 10px;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    /* Centers the social links vertically */
 }
 
-.full-screen-section-4 {
-    padding: 70px 0;
-    /* Add padding to the section */
-    padding-left: 50px;
-    /* Add padding to the left */
-    padding-right: 50px;
-    /* Add padding to the right */
-    max-width: 50%;
-    margin: 0 auto;
-    /* Center the section horizontally */
-    background-color: #a5b1d600;
-    height: 20vh;
+.social-links-hero {
     display: flex;
-    justify-content: center;
-    /* Center content horizontally */
-    align-items: start;
-    /* Align content to the top */
-    border-top: #000000;
-    border-top-style: solid;
-    border-width: 1px;
-}
-
-.content-wrapper-4 {
-    display: flex;
-    flex-direction: row;
-    /* Align children in a row */
-    justify-content: center;
-    /* Center content horizontally */
-    align-items: start;
-    /* Align content to the top */
-
-
-}
-
-.contact h1 {
-    font-family: 'Unbounded', sans-serif;
-    font-size: 40px;
-    margin: 0;
-    /* Remove default margin */
-    color: #000000;
-}
-
-.contact p {
-    font-family: 'Inter', sans-serif;
-    font-size: 20px;
-    margin: 10px 0;
-    /* Add spacing between items */
-    color: #000000;
-}
-
-.social-links {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 4rem;
+    flex-direction: column;
+    gap: 1rem;
 }
 
 .icon {
     text-decoration: none;
-    width: 5.625rem;
-    height: 5.625rem;
+    width: 3.625rem;
+    height: 3.625rem;
     border-radius: 14px;
     /* background-color: hsla(209 20% 70% / 20%); */
     /* For dark theme */

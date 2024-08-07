@@ -16,9 +16,24 @@
     @include('partials.header')
     <div id="home" class="wrapper">
         <div id="main" class="full-screen-section">
-            <h1 id="hello"></h1>
-            <p id="description" class="under-hello"></p>
-            <button class="portfolio-button">See Portfolio</button>
+            <div class="text-section">
+                <h1 id="hello"></h1>
+                <p id="description" class="under-hello"></p>
+                <button class="portfolio-button">See Portfolio</button>
+            </div>
+            <div class="socials-content-wrapper">
+                <div class="social-links-hero">
+                    <a href="https://github.com/DixonDevs" class="icon"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://www.facebook.com/daniel.dixon.58511" class="icon"><i
+                            class="fa-brands fa-facebook"></i></a>
+                    <a href="https://www.linkedin.com/in/daniel-dixon-312147209/" class="icon"><i
+                            class="fa-brands fa-linkedin-in"></i></a>
+                    <a href="https://discordapp.com/channels/@me/iceddapper/" class="icon"><i
+                            class="fa-brands fa-discord"></i></a>
+                    <a href="https://www.youtube.com/@DesignsByDixon" class="icon"><i
+                            class="fa-brands fa-youtube"></i></a>
+                </div>
+            </div>
         </div>
         <button class="back-to-top">
             <a href="#home">
@@ -26,24 +41,10 @@
             </a>
         </button>
         <div id="about" class="full-screen-section-2">
-            <div class="content-wrapper-2">
-                <img class="daniel-image" src="images/8bit image of Daniel.jpg" alt="8-bit Character of Daniel Dixon"
-                    width="600" height="650">
-                <div class="about-me">
-                    <strong class="about-me-top">About Me</strong>
-                    <h1 class="about-me-middle"><strong>I am a Full Stack Developer/Business Owner</strong></h1>
-                    <p>From a young age, I was drawn to technology, dreaming of the day I would have my own computer.
-                        When that day finally arrived, I was initially fascinated by playing Minecraft, spending
-                        countless hours navigating its blocky landscapes. However, beyond the gameplay, my curiosity
-                        about the game's mechanics sparked my interest in coding and programming. This fascination
-                        evolved into a passion for software development, leading me to become a full-stack web developer
-                        captivated by the intricacies of the field.</p>
+            <h1><strong>About Me</strong></h1>
+            <p>Test</p>
+            <div class="skills-section">
 
-                    <p>To get my foot in the door of web development, I started DBD Branding Co LLC, a company dedicated
-                        to producing quality websites at an affordable price. This venture allowed me to gain valuable
-                        experience and transition into real development, transforming my early interest in technology
-                        into a continuous pursuit of knowledge and growth in the ever-evolving tech landscape.</p>
-                </div>
             </div>
         </div>
     </div>
@@ -77,34 +78,7 @@
             </div>
         </div>
     </div>
-    <div id="socials">
-        <div id="contact" class="full-screen-section-4">
-            <div class="content-wrapper-4">
-                <div class="contact">
-                    <h1 class="socials">Contact Me!</h1>
-                    <p>Want to get in touch? I am always down to talk to new people! Please reach out on any of the
-                        following:</p>
-                    <div class="social-links">
-                        <a href="https://github.com/DixonDevs" class="icon"><i class="fa-brands fa-github"></i></a>
-                        <a href="https://www.facebook.com/daniel.dixon.58511" class="icon"><i
-                                class="fa-brands fa-facebook"></i></a>
-                        <a href="https://www.linkedin.com/in/daniel-dixon-312147209/" class="icon"><i
-                                class="fa-brands fa-linkedin-in"></i></a>
-                        <a href="https://discordapp.com/channels/@me/iceddapper/" class="icon"><i
-                                class="fa-brands fa-discord"></i></a>
-                        <a href="https://www.youtube.com/@DesignsByDixon" class="icon"><i
-                                class="fa-brands fa-youtube"></i></a>
-                        <!-- <img src="images/github-mark-white.png" alt="GitHub"> -->
-                        <!-- <img src="images/Facebook_Logo_Secondary.png" alt="Facebook"> -->
-                        <!-- <img src="images/In-Blue-128.png" alt="LinkedIn"> -->
-                        <!-- <img src="images/discord-mark-blue.svg" alt="Discord"> -->
-                        <!-- <img src="images/yt_icon_rgb.png" alt="Youtube"> -->
-                        <!-- <img src="images/In-Blue-128.png" alt="LinkedIn"> -->
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+
     <!-- Inline JavaScript -->
     <script>
     var button = document.getElementById('move-button');
@@ -188,7 +162,7 @@
         minWidth: 200.00,
         scale: 1.00,
         scaleMobile: 1.00,
-        backgroundColor: 0xa5b1d6,
+
         color1: 0xe00ff,
         colorMode: "lerp",
         birdSize: .80,
