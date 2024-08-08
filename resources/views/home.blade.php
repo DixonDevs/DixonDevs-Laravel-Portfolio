@@ -40,43 +40,7 @@
                 <img src="images/top-arrow.png" alt="Top Arrow">
             </a>
         </button>
-        <div id="about" class="full-screen-section-2">
-            <h1><strong>About Me</strong></h1>
-            <p>Test</p>
-            <div class="skills-section">
 
-            </div>
-        </div>
-    </div>
-    <div class="wrapper-2">
-        <div class="full-screen-section-3">
-            <div class="content-wrapper-3">
-                <div class="experience">
-                    <strong class="experience-title">Experience</strong>
-                    <h1 class="experience-1, hidden">AceOne Technologies</h1>
-                    <p class="hidden">Full Stack Developer / October 2023 - Present</p>
-                    <ul>
-                        <li class="hidden">Manage multiple WordPress sites, ensuring smooth operation and implementing
-                            customizations as per client requirements.</li>
-                        <li class="hidden">Maintain and develope web software using Laravel, utilizing PHP, HTML, CSS,
-                            and JavaScript to create robust and efficient applications
-                            while adhearing to best practice.</li>
-                        <li class="hidden">Conduct regular maintenance and updates to ensure security and performance
-                            optimization of websites and web applications.</li>
-                    </ul>
-                    <h1 class="experience-1, hidden">DBD Branding Co. LLC</h1>
-                    <p class="hidden">Owner/ Wordpress Developer / November 2022 - Present</p>
-                    <ul>
-                        <li class="hidden">Create and Design several Websites using Wordpress CMS</li>
-                        <li class="hidden">Create and implement custom plugins and themes to meet client requirements
-                            and enhance website functionality.</li>
-                        <li class="hidden">Provide ongoing support and maintenance to ensure optimal performance and
-                            security of websites.</li>
-                        <li class="hidden">Web Hosting and Email hosting provider.</li>
-                    </ul>
-                </div>
-            </div>
-        </div>
     </div>
 
     <!-- Inline JavaScript -->
