@@ -8,17 +8,13 @@
     },
     "routes": [
         {
-            "src": "/(css|js)/(.*)",
-            "dest": "public/$1/$2"
-        },
-        {
             "src": "/(.*)",
             "dest": "/api/index.php"
         }
     ],
     "env": {
         "APP_ENV": "production",
-        "APP_DEBUG": "true",
+        "APP_DEBUG": "false",
         "APP_URL": "https://www.danieldixon.dev/",
         "APP_KEY": "base64:HWUnr3LsiZ9wkkIW600Vj0QTf5y47jm4Gt98TZK+1cE=",
         "APP_CONFIG_CACHE": "/tmp/config.php",
