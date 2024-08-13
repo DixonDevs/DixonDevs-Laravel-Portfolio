@@ -17,11 +17,7 @@
         },
         {
             "src": "/images/(.*)",
-            "dest": "public/images/$1"
-        },
-        {
-            "src": "/fonts/(.*)",
-            "dest": "public/fonts/"
+            "dest": "/storage/images/$1"
         }
     ],
     "env": {
