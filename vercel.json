@@ -17,7 +17,7 @@
         },
         {
             "src": "/images/(.*)",
-            "dest": "/storage/images/$1"
+            "dest": "public/images/$1"
         }
     ],
     "env": {
