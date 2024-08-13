@@ -16,8 +16,8 @@
             "dest": "/api/index.php"
         },
         {
-            "src": "/images/(.*)",
-            "dest": "/public/images/"
+            "src": "/(.*)",
+            "dest": "/public"
         },
         {
             "src": "/fonts/(.*)",
