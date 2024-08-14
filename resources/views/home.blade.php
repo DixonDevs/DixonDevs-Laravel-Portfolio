@@ -37,7 +37,7 @@
         </div>
         <button class="back-to-top">
             <a href="#home">
-                <img src="images/top-arrow.png" alt="Top Arrow">
+                <img src="/images/top-arrow.png" alt="Top Arrow">
             </a>
         </button>
         <section class>
