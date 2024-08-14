@@ -16,6 +16,10 @@
             "dest": "public/$1/$2"
         },
         {
+            "src": "/(fonts)/(.*)",
+            "dest": "public/$1/$2"
+        },
+        {
             "src": "/(.*)",
             "dest": "/api/index.php"
         }
