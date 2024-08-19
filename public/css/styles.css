@@ -127,6 +127,84 @@ body {
     border-radius: 360px;
 }
 
+/* Hide the header and show the hamburger menu on mobile screens */
+@media only screen and (max-width: 768px) {
+    .sticky-header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .hamburger-menu {
+        display: block;
+        cursor: pointer;
+    }
+
+    .hamburger-menu span {
+        display: block;
+        width: 25px;
+        height: 3px;
+        background-color: black;
+        margin: 5px 0;
+        transition: 0.4s;
+    }
+}
+
+/* Default state - hamburger menu is hidden */
+.hamburger-menu {
+    display: none;
+}
+
+/* Mobile Navigation */
+.mobile-nav {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    z-index: 999;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.mobile-nav-links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+.mobile-nav-links li {
+    margin: 20px 0;
+}
+
+.mobile-nav-links a {
+    text-decoration: none;
+    font-size: 24px;
+    color: black;
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+}
+
+.mobile-nav.active {
+    display: flex;
+}
+
+.hamburger-menu.active span:nth-child(1) {
+    transform: rotate(-45deg);
+}
+
+.hamburger-menu.active span:nth-child(2) {
+    opacity: 0;
+}
+
+.hamburger-menu.active span:nth-child(3) {
+    transform: rotate(45deg);
+}
+
 /* SECTION 1 */
 .full-screen-section {
     height: 90vh;

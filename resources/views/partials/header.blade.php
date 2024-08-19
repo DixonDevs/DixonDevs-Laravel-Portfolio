@@ -1,4 +1,4 @@
-<div class="sticky-header-wrapper">
+<header class="sticky-header-wrapper">
     <div class="sticky-header">
         <img class="daniel-image" src="/images/8bit-image-of-Daniel.jpg" alt="8-bit Character of Daniel Dixon"
             width="100" height="100">
@@ -11,4 +11,17 @@
                         class="header-button">Start Game</button></a></li>
         </ul>
     </div>
-</div>
+    <div class="hamburger-menu">
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
+    <nav class="mobile-nav">
+        <ul class="mobile-nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+</header>
