@@ -7,10 +7,10 @@
     <link rel="stylesheet" href="{{ asset('css/styles.css') }}">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
     <title>Home Page</title>
+    @include('partials.header')
 </head>
 
 <body>
-    @include('partials.header')
     <div id="home" class="wrapper">
         <div id="main" class="full-screen-section">
             <div class="text-section">
@@ -32,18 +32,22 @@
                 </div>
             </div>
         </div>
+
         <button class="back-to-top">
             <a href="#home">
                 <img src="/images/top-arrow.png" alt="Top Arrow">
             </a>
         </button>
-        <section class="hidden">
-            <!-- Your additional content here -->
+        <section class="projects_sec">
+            <div id="about" class="about-section">
+                <h2>About Me</h2>
+                <p class="about-text">
         </section>
     </div>
 
     <!-- External Libraries -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r134/three.min.js"></script>
+    <script src=" https://cdnjs.cloudflare.com/ajax/libs/three.js/r134/three.min.js">
+    </script>
     <script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.birds.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.net.min.js"></script>
 
