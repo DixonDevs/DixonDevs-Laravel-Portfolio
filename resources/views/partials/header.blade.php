@@ -2,6 +2,12 @@
     <div class="sticky-header">
         <img class="daniel-image" src="/images/8bit-image-of-Daniel.jpg" alt="8-bit Character of Daniel Dixon">
         <h1 class="name-logo">DanielDixon.dev</h1>
+        <!-- Hamburger Menu for Mobile -->
+        <div class="hamburger-menu">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
         <nav class="nav-links">
             <li><a href="{{ route('home') }}">HOME</a></li>
             <li><a href="#about">ABOUT</a></li>
@@ -9,12 +15,7 @@
                         class="header-button">Start Game</button></a></li>
         </nav>
     </div>
-    <!-- Hamburger Menu for Mobile -->
-    <div class="hamburger-menu">
-        <span></span>
-        <span></span>
-        <span></span>
-    </div>
+
 
     <!-- Mobile Navigation -->
     <nav class="mobile-nav">
