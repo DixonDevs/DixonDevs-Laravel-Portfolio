@@ -39,9 +39,17 @@
             </a>
         </button>
         <section class="projects_sec">
-            <div id="about" class="about-section">
-                <h2>About Me</h2>
-                <p class="about-text">
+            <div id="about" class="sec_pad about-section">
+                <h2>Portfolio Projects</h2>
+
+                <div id="over">
+                    <iframe src="https:danieldixon.dev" frameboarder="0"></iframe>
+                </div>
+
+                <div class="section-content">
+                    <h2>Portfolio Projects</h2>
+                    <button class="portfolio-button">See Portfolio</button>
+
         </section>
     </div>
 
